@@ -1,0 +1,34 @@
+{
+  "name": "hanselsen",
+  "displayName": "hanselsen",
+  "expo": {
+    "name": "hanselsen",
+    "slug": "hanselsenMobile",
+    "description": "The mobile app for hanselsen",
+    "privacy": "unlisted",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "com.mycom.hanselsenmobile",
+      "versionCode": 1
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm"
+      ]
+    }
+  }
+}
